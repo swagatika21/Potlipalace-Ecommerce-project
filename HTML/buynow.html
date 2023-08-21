@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BUY </title>
+
+    <!-- my css -->
+    <link rel="stylesheet" href="../CSS/styles.css" />
+
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="../IMAGES/handbag.png"
+      type="image/x-icon"
+    />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+   <!-- jquery -->
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  </head>
+  <body>
+    <section id="nav">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./home.html">
+            <span class="brand">PotliPalace</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./home.html"
+                  >HOME</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./AboutUs.html">ABOUT US</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  SHOP
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="./vanity.html">VANITY</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./potli.html">POTLI</a>
+                  </li>
+                 
+                  <li>
+                    <a class="dropdown-item" href="./clutch.html">CLUTCH</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Wedding_gift.html">WEDDING GIFT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Contactus.html">CONTACT US</a>
+              </li>
+            </ul>
+            <form class="d-flex ms-lg-5" role="search">
+              <input
+                class="me-2 subs-ip p-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn" type="submit">
+                <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+              </button>
+            </form>
+            <ul class="navbar-nav me-0 mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./login.html"
+                  ><i class="fa-solid fa-user fa-xl"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./wish_list.html"
+                  ><i class="fa-regular fa-heart fa-xl"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./Cart.html"
+                >
+                  <i class="fa-solid fa-cart-shopping fa-xl"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <section id="login">
+      <h3 class="text-center p-3">SHIPPING ADDRESS</h3>
+      <div class="container w-100 p-4">
+        <form action="">
+          <div class="row">
+            <div class="col-md-6">
+              <label for="fname" class="form-label">First Name</label>
+              <input type="text" class="form-control subs-ip" id="fname" placeholder="Enter first name" />
+              <p id="fname-err" class="mt-3"></p>
+            </div>
+            <div class="col-md-6">
+              <label for="lname" class="form-label">Last Name</label>
+              <input type="text" class="form-control subs-ip" id="lname" placeholder="Enter last name" />
+              <p id="lname-err" class="mt-3"></p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <label for="emailId" class="form-label">Email address</label>
+              <input type="email" class="form-control subs-ip" id="emailId" placeholder="Enter email address"/>
+              <p id="mail-err" class="mt-3"></p>
+            </div>
+            <div class="col-md-6">
+              <label for="phoneNum" class="form-label">Phone</label>
+              <input type="email" class="form-control subs-ip" id="phoneNum" placeholder="99xxxxxxxx"/>
+              <p id="phone-err" class="mt-3"></p>
+            </div>
+          </div>
+  <!-- address -->
+  
+  <div class="row">
+    <div class="col-12">
+        <label for="inputAddress" class="form-label">Address</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St"  required>
+        <p id="addr-err" class="mt-3"></p>
+      </div>
+  </div>
+   
+      <div class="row">
+        <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity" min="5" max="25"  required placeholder="Enter City">
+            <p id="city-err" class="mt-3"></p>
+          </div>
+          <div class="col-md-6">
+            <label for="inputState" class="form-label">State</label>
+            <input type="text" class="form-control" id="inputState" placeholder="Enter State"  required >
+            <p id="state-err" class="mt-3"></p>   
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+            <label for="inputcountry" class="form-label">Country</label>
+            <input type="text" class="form-control" id="inputcountry" placeholder="Enter Country"  required >  
+            <p id="country-err" class="mt-3"></p> 
+          </div>
+          
+          <div class="col-md-6">
+            <label for="inputZip" class="form-label">Zip</label>
+            <input type="number" class="form-control" id="inputZip" placeholder="Enter Zip/pin code"  max="7" required >
+            <p id="zip-err" class="mt-3"></p>
+          </div>    
+      </div>
+    
+        
+
+
+        </form>
+      </div>
+      
+      
+
+    </section>
+
+    <hr />
+     <section id="payment">
+        <h3 class="p-3">Select a payment method.</h3>
+        <div class="row p-3 ms-4">
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <img src="../IMAGES/google-pay.png" alt="">
+           </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <img src="../IMAGES/amazon-pay.png" alt="">
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <img src="../IMAGES/paytm.png" alt="">
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <p>Cash on delivery</p>
+              </div>
+              <button class="subs-btn p-2" id="checkout-btn">CONFIRM ORDER</button>
+        </div>
+     </section>
+     
+     <hr>
+
+    <section id="footer">
+      <footer>
+        <!-- NEWSLETTER -->
+        <div class="row p-3">
+          <div class="col-lg-6">
+            <h4>SUBSCRIBE NEWSLETTER</h4>
+            <p>Get all the latest information on Events, Sales and Offers.</p>
+          </div>
+          <div class="col-lg-6">
+            <input type="text" class="subs-ip p-2 w-50" />
+            <button class="subs-btn p-2">SUBSCRIBE</button>
+          </div>
+        </div>
+
+        <hr />
+        <div class="row p-3">
+          <div class="col-lg-4 p-4">
+            <h4>KNOW MORE</h4>
+            <li>About Us</li>
+            <li>Contact Us</li>
+            <li>Terms & Conditions</li>
+            <li>Privacy Policy</li>
+            <li>Shipping Policy</li>
+            <li>Refund Policy</li>
+          </div>
+          <div class="col-lg-4 p-4">
+            <h4>MY ACCOUNT</h4>
+            <li>My Account</li>
+            <li>Order History</li>
+          </div>
+          <div class="col-lg-4 p-4">
+            <h4>CONTACT INFO</h4>
+            <li>
+              <a
+                href="https://www.google.com/maps/place/Ornatte+-+Handcrafted+Luxury+Potli+Bags/@20.3297734,85.7953568,14z/data=!4m6!3m5!1s0x3a1909f18cd4f1c7:0xc7949660f57136a9!8m2!3d20.3488356!4d85.8077782!16s%2Fg%2F11p14xl6c3?entry=ttu"
+              >
+                <span>ADDRESS: </span> 707, 7th Floor, DLF Cyber City, Patia,
+                Bhubaneswar-24, Odisha</a
+              >
+            </li>
+            <li><span>PHONE:</span> +91 7849072695</li>
+            <li>
+              <a href="mailto: customerservice@ornatte.com">
+                <span>EMAIL:</span>
+                customerservice@ornatte.com</a
+              >
+            </li>
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <p class="text-center">
+            © 2023 <span>POTLI PALACE</span> PVT LTD. All rights reserved.
+          </p>
+        </div>
+      </footer>
+    </section>
+
+    <style>
+      label {
+        color: #3a4f7a;
+        font-weight: bold;
+      }
+      .form-control {
+        border-radius: 7px;
+        width: 300px;
+        border: #d14d72 solid 1px;
+      }
+      #login a {
+        text-decoration: none;
+        color: white;
+      }
+
+      #submit-btn{
+        width: 150px;
+      }
+
+      #payment img{
+        width: 80px;
+      }
+      #payment p{
+        font-size: 20px;
+        font-weight: bold;
+      }
+      #payment button{
+        width: 180px;
+      }
+     
+    </style>
+  <!--Scroll to top-->
+  <i class="fa-solid fa-circle-up fa-2x" style="color: #D14D72" id="scrollToTopButton" ></i>
+    
+  <script>
+    //scroll to top button
+    $(window).scroll(function () {
+      var scrollToTopButton = $("#scrollToTopButton");
+      if ($(window).scrollTop() > 200) {
+        scrollToTopButton.css("display", "block");
+      } else {
+        scrollToTopButton.css("display", "none");
+      }
+    });
+
+    $("#scrollToTopButton").click(function () {
+      $("html, body").animate(
+        {
+          scrollTop: 0,
+        },
+        "slow"
+      );
+    });
+  </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../JS/validate.js"></script>
+  </body>
+</html>

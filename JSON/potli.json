@@ -1,0 +1,145 @@
+{
+    "Potli": [
+        {
+            "id": 1,
+            "name": "Original Potli",
+            "price": 1199.00,
+            "Desc": "Let our  Potli carry you effortlessly from poojas to haldi rites. Its's raw silk material, satin lining with sequin & pearl designs & metal chain are effortlessly stylish and cheerful, and they are ideal for putting you in the mood for celebration.",
+            "src": "../IMAGES/bag1.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Ritika Potli",
+            "price": 6199.00,
+            "Desc": "Let our  Potli carry you effortlessly from poojas to haldi rites. Its's raw silk material, satin lining with sequin & pearl designs & metal chain are effortlessly stylish and cheerful, and they are ideal for putting you in the mood for celebration.",
+            "src": "../IMAGES/bag2.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Paheli Potli",
+            "price": 6199.00,
+            "Desc": "Let our  Potli carry you effortlessly from poojas to haldi rites. Its's raw silk material, satin lining with sequin & pearl designs & metal chain are effortlessly stylish and cheerful, and they are ideal for putting you in the mood for celebration.",
+            "src": "../IMAGES/bag3.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Original Potli",
+            "price": 1199.00,
+            "Desc": "Let our Potli carry you effortlessly from poojas to haldi rites. Its's raw silk material, satin lining with sequin & pearl designs & metal chain are effortlessly stylish and cheerful, and they are ideal for putting you in the mood for celebration.",
+            "src": "../IMAGES/bag4.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Ritika Potli",
+            "price": 6199.00,
+            "Desc": "Let our Potli carry you effortlessly from poojas to haldi rites. Its's raw silk material, satin lining with sequin & pearl designs & metal chain are effortlessly stylish and cheerful, and they are ideal for putting you in the mood for celebration.",
+            "src": "../IMAGES/bag5.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Paheli Potli",
+            "price": 5599.00,
+            "Desc": "Let our Potli carry you effortlessly from poojas to haldi rites. Its's raw silk material, satin lining with sequin & pearl designs & metal chain are effortlessly stylish and cheerful, and they are ideal for putting you in the mood for celebration.",
+            "src": "../IMAGES/bag6.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Elegant Potli",
+            "price": 1999.00,
+            "Desc": "Our Elegant Potli is perfect for adding a touch of elegance to your ethnic look. Made with exquisite brocade fabric and adorned with delicate zardozi work.",
+            "src": "../IMAGES/bag4.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Graceful Potli",
+            "price": 1499.00,
+            "Desc": "The Graceful Potli features a beautiful combination of silk and velvet, embellished with intricate bead and mirror work. A perfect accessory for special occasions.",
+            "src": "../IMAGES/bag8.jpg"
+        },
+         {
+            "id": 9,
+            "name": "Original Potli",
+            "price": 1199.00,
+            "Desc": "Let our  Potli carry you effortlessly from poojas to haldi rites. Its's raw silk material, satin lining with sequin & pearl designs & metal chain are effortlessly stylish and cheerful, and they are ideal for putting you in the mood for celebration.",
+            "src": "../IMAGES/bag9.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Ritika Potli",
+            "price": 6199.00,
+            "Desc": "Let our  Potli carry you effortlessly from poojas to haldi rites. Its's raw silk material, satin lining with sequin & pearl designs & metal chain are effortlessly stylish and cheerful, and they are ideal for putting you in the mood for celebration.",
+            "src": "../IMAGES/bag10.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Paheli Potli",
+            "price": 1199.00,
+            "Desc": "Let our  Potli carry you effortlessly from poojas to haldi rites. Its's raw silk material, satin lining with sequin & pearl designs & metal chain are effortlessly stylish and cheerful, and they are ideal for putting you in the mood for celebration.",
+            "src": "../IMAGES/bag11.jpg"
+        },
+        {
+            "id": 12,
+            "name": "Original Potli",
+            "price": 1199.00,
+            "Desc": "Let our Potli carry you effortlessly from poojas to haldi rites. Its's raw silk material, satin lining with sequin & pearl designs & metal chain are effortlessly stylish and cheerful, and they are ideal for putting you in the mood for celebration.",
+            "src": "../IMAGES/bag12.jpg"
+        },
+        {
+            "id": 13,
+            "name": "Ritika Potli",
+            "price": 6199.00,
+            "Desc": "Let our Potli carry you effortlessly from poojas to haldi rites. Its's raw silk material, satin lining with sequin & pearl designs & metal chain are effortlessly stylish and cheerful, and they are ideal for putting you in the mood for celebration.",
+            "src": "../IMAGES/bag13.jpg"
+        },
+        {
+            "id": 14,
+            "name": "Paheli Potli",
+            "price": 5599.00,
+            "Desc": "Let our Potli carry you effortlessly from poojas to haldi rites. Its's raw silk material, satin lining with sequin & pearl designs & metal chain are effortlessly stylish and cheerful, and they are ideal for putting you in the mood for celebration.",
+            "src": "../IMAGES/bag14.jpg"
+        },
+        {
+            "id": 15,
+            "name": "Elegant Potli",
+            "price": 1999.00,
+            "Desc": "Our Elegant Potli is perfect for adding a touch of elegance to your ethnic look. Made with exquisite brocade fabric and adorned with delicate zardozi work.",
+            "src": "../IMAGES/bag15.jpg"
+        },
+        {
+            "id": 16,
+            "name": "Graceful Potli",
+            "price": 1499.00,
+            "Desc": "The Graceful Potli features a beautiful combination of silk and velvet, embellished with intricate bead and mirror work. A perfect accessory for special occasions.",
+            "src": "../IMAGES/bag16.jpg"
+        },
+        
+        {
+            "id": 17,
+            "name": "Ritika Potli",
+            "price": 6199.00,
+            "Desc": "Let our Potli carry you effortlessly from poojas to haldi rites. Its's raw silk material, satin lining with sequin & pearl designs & metal chain are effortlessly stylish and cheerful, and they are ideal for putting you in the mood for celebration.",
+            "src": "../IMAGES/bag17.jpg"
+        },
+        {
+            "id": 18,
+            "name": "Paheli Potli",
+            "price": 5599.00,
+            "Desc": "Let our Potli carry you effortlessly from poojas to haldi rites. Its's raw silk material, satin lining with sequin & pearl designs & metal chain are effortlessly stylish and cheerful, and they are ideal for putting you in the mood for celebration.",
+            "src": "../IMAGES/bag18.jpg"
+        },
+        {
+            "id": 19,
+            "name": "Elegant Potli",
+            "price": 1999.00,
+            "Desc": "Our Elegant Potli is perfect for adding a touch of elegance to your ethnic look. Made with exquisite brocade fabric and adorned with delicate zardozi work.",
+            "src": "../IMAGES/bag19.jpg"
+        },
+        {
+            "id": 20,
+            "name": "Graceful Potli",
+            "price": 1499.00,
+            "Desc": "The Graceful Potli features a beautiful combination of silk and velvet, embellished with intricate bead and mirror work. A perfect accessory for special occasions.",
+            "src": "../IMAGES/bag20.jpg"
+        }
+    ]
+}

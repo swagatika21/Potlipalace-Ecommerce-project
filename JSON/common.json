@@ -1,0 +1,63 @@
+{
+    "clutch": [
+        {
+            "id": 1,
+            "name": "Original CLutch",
+            "price": 1199.00,
+            "Desc": "The timeless and distinctive design of our original Clutch is one of our contemporary clutches with class, hand embroidered with raw silk material, satin lining & attention to details making it versatile across occasions.",
+            "src":"../IMAGES/cl1.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Donna Clutch",
+            "price": 6199.00,
+            "Desc": "The timeless and distinctive design of our Donna Clutch is one of our contemporary clutches with class, hand embroidered with raw silk material, satin lining & attention to details making it versatile across occasions.",
+            "src":"../IMAGES/dona-clutch.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Grace Clutch",
+            "price": 5599.00,
+            "Desc": "The timeless and distinctive design of our Grace Clutch is one of our contemporary clutches with class, hand embroidered with raw silk material, satin lining & attention to details making it versatile across occasions.",
+            "src":"../IMAGES/cl3.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Emma Clutch",
+            "price": 6199.00,
+            "Desc": "The timeless and distinctive design of our Emma Clutch is one of our contemporary clutches with class, hand embroidered with raw silk material, satin lining & attention to details making it versatile across occasions.",
+            "src":"../IMAGES/cl4.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Kate Clutch",
+            "price": 5599.00,
+            "Desc": "The timeless and distinctive design of our Kate Clutch is one of our contemporary clutches with class, hand embroidered with raw silk material, satin lining & attention to details making it versatile across occasions.",
+            "src":"../IMAGES/cl5.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Kate Clutch",
+            "price": 7599.00,
+            "Desc": "The timeless and distinctive design of our Kate Clutch is one of our contemporary clutches with class, hand embroidered with raw silk material, satin lining & attention to details making it versatile across occasions.",
+            "src":"../IMAGES/cl2.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Nancy Clutch",
+            "price": 5599.00,
+            "Desc": "The timeless and distinctive design of our Kate Clutch is one of our contemporary clutches with class, hand embroidered with raw silk material, satin lining & attention to details making it versatile across occasions.",
+            "src":"../IMAGES/cl6.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Lola Clutch",
+            "price": 7599.00,
+            "Desc": "The timeless and distinctive design of our Kate Clutch is one of our contemporary clutches with class, hand embroidered with raw silk material, satin lining & attention to details making it versatile across occasions.",
+            "src":"../IMAGES/cl7.jpg"
+        }
+      
+      
+    ]
+   
+}

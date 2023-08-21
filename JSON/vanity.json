@@ -1,0 +1,30 @@
+{
+    "vanity": [
+        {
+            "id": 1,
+            "name": "Original Vanity",
+            "price": 1199.00,
+            "Desc": "Our Original embroidered vanity made of finely embroidered dupion silk is your new quintessential for all your makeup products.",
+            "src":"../IMAGES/vanity.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Ritika Vanity",
+            "price": 6199.00,
+            "Desc": "Our Ritika embroidered vanity made of finely embroidered dupion silk is your new quintessential for all your makeup products.",
+            "src":"../IMAGES/vanity2.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Itika Vanity",
+            "price": 5599.00,
+            "Desc": "Our  embroidered vanity made of finely embroidered dupion silk is your new quintessential for all your makeup products.",
+            "src":"../IMAGES/vanity3.jpg"
+        }
+      
+    ],
+    "cart":[
+        
+    ]
+   
+}
